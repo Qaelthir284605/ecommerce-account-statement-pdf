@@ -1,0 +1,17 @@
+{
+  "name": "ecommerce-account-statement-pdf",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "export": "node src/statement_export.ts",
+    "test": "node --test src/statement_export.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.7.0"
+  },
+  "dependencies": {
+    "zod": "^3.24.0"
+  }
+}
